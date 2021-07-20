@@ -7,7 +7,6 @@
 
 
 .logo{
-    width: 15%;
     height: 100%;
     vertical-align: middle;    
     background-color: black;
@@ -40,6 +39,7 @@ header{
 nav,
 ul{
     height: 100%;
+    list-style-type: none;
 }
 
 ul{
@@ -48,9 +48,11 @@ ul{
     flex-direction: column;
 }
 
-ul>li{
+ul>li a {
     display: inline-block;
     flex-grow: 1;
+    color: white;
+    text-decoration: none;
 }
 
 .column {
@@ -89,9 +91,16 @@ ul>li{
   margin-top: 200px;
 }
 
-.hover-menu{
+.hover-menu {
     height: 25.5px;
-    border: 1px solid greenyellow;
+    border: 1px solid;
+    margin-right: 15px;
+    display: none;
+}
+
+a:hover .hover-menu{
+    border: 1px solid yellowgreen;
+    
 }
 
 .clearfix::after{
@@ -106,4 +115,12 @@ ul>li{
 
 .fr{
     float: right;
+}
+
+.main-container{
+    width: 75%;
+}
+
+.container{
+    width: 1000px;
 }
