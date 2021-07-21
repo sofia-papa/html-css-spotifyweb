@@ -115,3 +115,45 @@ nav.podcast li{
     top: 20%;
     right: 20%;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    flex: 0 0 150px;
+    height: 150px;
+}
+
+.video{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+}
+
+#metal{
+    background-image: url(../img/metal_lifting.jpg);
+}
+
+#stranger{
+    background-image: url(../img/stranger.jpeg);
+}
+
+#quiet-place{
+    background-image: url(../img/aquietplace.jpeg);
+}
+
+#split{
+    background-image: url(../img/split.jpeg);
+}
+
+#cure{
+    background-image: url(../img/cure.jpeg);
+}
+
+#sinister{
+    background-image: url(../img/sinister.jpeg);
+}
+
