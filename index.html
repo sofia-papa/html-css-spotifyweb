@@ -18,19 +18,22 @@
 </head>
 <body>
     <div class="container">
-       
 
-        <div id="left" class="column color-white">
-            <div class="bottom">
-                <img src="img/logo.svg" alt="" class="logo">
-                <ul class="clearfix">
-                    <li class="font fr"><div class="hover-menu fl"></div>
-                        <span><i class="fas fa-home"></i></span>
-                        <a href="#">Home</a></li>
-                    <li class="grey fr"><div class="hover-menu fl"></div><span><i class="fas fa-search"></i></span> Cerca</li>
-                    <li class="grey"><div></div><span><i class="fas fa-grip-lines-vertical"></i></span> La tua libreria</li>
-                </ul>
-                <h5 class="uppercase">Playlist</h5>
+        <main class="clearfix">
+
+            <nav id="nav-bar" class="fl">
+                <div>
+                    <img src="img/logo.svg" alt="" class="logo">
+                </div>
+
+                <div class="clearfix">
+                    <ul class="clearfix">
+                        <li class="font fr"><div class="hover-menu fl"></div><span><i class="fas fa-home"></i></span><a href="#"> Home</a></li>
+                        <li class="grey fr"><div class="hover-menu fl"></div><span><i class="fas fa-search"></i></span><a href="#"> Cerca</a></li>
+                        <li class="grey fr"><div class="hover-menu fl"></div><span><i class="fas fa-grip-lines-vertical"></i></span><a href="#"> La tua libreria</a></li>
+                    </ul>
+
+                    <h5 class="uppercase color-white">Playlist</h5>
                     <ul>
                         <li class="grey"><div></div><span><i class="fas fa-plus"></i></span> Crea Playlist</li>
                         <li class="grey"><div></div> Nome Playlist</li>
@@ -45,29 +48,42 @@
                     <div class="header-bottom">
                         <p class="grey"><i class="far fa-arrow-alt-circle-down"></i> Installa app</p>
                         <hr>
-                        <p class="font"><i class="fas fa-user"></i> John Doe</p>
+                        <p class="font color-white"><i class="fas fa-user"></i> John Doe</p>
                     </div>
-            </div>
-        </div>
+      
+                </div>
+            </nav>
+
+            <section id="main-section" class="fl">
+                <div id="upgrade-banner">
+                    <div class="">
+                        <p id="button-upgrade" class="color-white" >effettua l'upgrade</p>
+                     </div>
+                </div>
+
+                <nav class="podcast">
+                    <li class="grey uppercase"> In evidenza</li>
+                    <li class="grey uppercase"> Podcast</li>
+                    <li class="grey uppercase"> Classifiche</li>
+                    <li class="grey uppercase"> Generi e mood</li>
+                    <li class="grey uppercase"> Nuove uscite</li>
+                    <li class="grey uppercase"> Scopri</li>
+                </nav>
+
+                <section class="song-list">
+                    <h1>Recently played</h1>
+
+
+                </section>
+            </section>
+
+        </main>
+
+        <footer>
+
+        </footer>
     </div>
 
-    <main class="clearfix">
-        <div class="main-container">
-            <div class="">
-               <p id="button-upgrade" class="color-white" >effettua l'upgrade</p>
-            </div>
-            <div>
-               <ul>
-                  <li class="grey"> In evidenza</li>
-                  <li class="grey"> Podcast</li>
-                  <li class="grey"> Classifiche</li>
-                  <li class="grey"> Generi e mood</li>
-                  <li class="grey"> Nuove uscite</li>
-                  <li class="grey"> Scopri</li>
-                </ul>
-            </div>
-        </div>
-    </main>
-    
+        
 </body>
 </html>
