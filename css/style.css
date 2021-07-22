@@ -37,6 +37,7 @@ main{
     width: 200px;
     height: 100%;
     background-color: black;
+    overflow: auto;
 }
 
 #main-section{
@@ -62,15 +63,20 @@ main{
     text-transform: uppercase;
     border: 1px solid white;
     border-radius: 50px;
-    padding: 5px ;
+    padding: 5px 25px;
 
-    font-size: 0.8em;
+    font-size: 0.7em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .color-white{
     color: white;
 }
 
+.img-sinister{
+    height: 50px;
+    width: 50px;
+}
 .font{
     font-family: 'Open Sans', sans-serif;
     font-size: 00.8em;
@@ -79,7 +85,16 @@ main{
 .grey {
     color: gray;
     font-family: 'Open Sans', sans-serif;
-    font-size: 00.8em;
+    font-size: 00.7em;
+}
+
+.header-bottom{
+    margin-top: 200px;
+}
+
+.upper-bar{
+    padding: 10px;
+    line-height: 2;
 }
 
 ul{
@@ -259,3 +274,20 @@ section.song-list h1{
     font-family: 'Open Sans', sans-serif;
 }
 
+section.centre-footer{
+    position: absolute;
+    left: 50%;
+
+    color: white;
+}
+
+.progress-bar{
+    width: 200px;
+    height: 0;
+    border: 1px solid white;
+}
+
+#progress-bar-minute{
+    display: flex;
+    justify-content: space-around;
+}
