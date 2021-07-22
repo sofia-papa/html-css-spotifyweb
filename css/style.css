@@ -132,36 +132,114 @@ nav.podcast li{
     background-size: cover;
 }
 
-#metal{
+.play-video{
+    position: relative;
+    height: 150px;
+    width: 150px; 
+}
+
+.play-video .fa-play-circle{
+    display: none;
+
+    font-size: 5em;
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video:hover .play-video .fa-play-circle{
+    display: block;
+}
+
+.video:hover .play-video.metal{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/metal_lifting.jpg);
+}
+
+.video:hover .play-video.stranger{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/stranger.jpeg);
+}
+
+.video:hover .play-video.quiet-place{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/aquietplace.jpeg);
+}
+
+.video:hover .play-video.split{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/split.jpeg);
+}
+
+.video:hover .play-video.cure{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/cure.jpeg);
+}
+
+.video:hover .play-video.sinister{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/sinister.jpeg);
+}
+
+.video:hover .play-video.radar{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/radar.jpeg);
+}
+
+.video:hover .play-video.daily-mix{
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    url(../img/mixdaily.jpeg);
+}
+
+.metal{
     background-image: url(../img/metal_lifting.jpg);
+    background-size: cover;
 }
 
-#stranger{
+.stranger{
     background-image: url(../img/stranger.jpeg);
+    background-size: cover;
 }
 
-#quiet-place{
+.quiet-place{
     background-image: url(../img/aquietplace.jpeg);
+    background-size: cover;
 }
 
-#split{
+.split{
     background-image: url(../img/split.jpeg);
+    background-size: cover;
 }
 
-#cure{
+.cure{
     background-image: url(../img/cure.jpeg);
+    background-size: cover;
 }
 
-#sinister{
+.sinister{
     background-image: url(../img/sinister.jpeg);
+    background-size: cover;
 }
 
-#radar{
+.radar{
     background-image: url(../img/radar.jpeg);
+    background-size: cover;
 }
 
-#daily-mix{
+.daily-mix{
     background-image: url(../img/mixdaily.jpeg);
+    background-size: cover;
 }
 
 .description{
